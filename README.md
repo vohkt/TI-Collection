@@ -53,10 +53,8 @@ Simple utility design to generate obfuscated macro that also include a AV / Sand
 - https://github.com/anouarbensaad/vulnx
 
 **Privilege Escalations**
-  Windows
-  - https://lolbas-project.github.io/
-  Linux
-  - https://gtfobins.github.io/
+  - Windows: https://lolbas-project.github.io/
+  - Linux: https://gtfobins.github.io/
 
 ## PoCs & Exploits
 **ShadowBroker Exploits & Tools**
