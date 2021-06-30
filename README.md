@@ -46,13 +46,17 @@ A tool that generates obfuscated shellcode that is stored inside of polyglot ima
 Simple utility design to generate obfuscated macro that also include a AV / Sandboxes escape mechanism.
 - https://github.com/Mr-Un1k0d3r/MaliciousMacroGenerator
 
-Information about EDRs that can be useful during red team exercise like hooked DLLs etc.
+**Information about EDRs that can be useful during red team exercise like hooked DLLs etc.**
 - https://github.com/Mr-Un1k0d3r/EDRs
 
 **Vulnx** is An Intelligent Bot Auto Shell Injector that detects vulnerabilities in multiple types of Cms
 - https://github.com/anouarbensaad/vulnx
 
-
+**Privilege Escalations**
+  Windows
+  - https://lolbas-project.github.io/
+  Linux
+  - https://gtfobins.github.io/
 
 ## PoCs & Exploits
 **ShadowBroker Exploits & Tools**
