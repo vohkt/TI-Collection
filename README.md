@@ -36,6 +36,10 @@ Wide collection of tools, links, informations
   
   *Spawn webserver*
   python3 -m http.server [PORT]
+  
+  *Search for SUID Files*
+  To look for the files with SUID permission we can use the command:
+find / -type f -user root -perm -4000 2>/dev/null
 
 **Don't kill my cat** 
 A tool that generates obfuscated shellcode that is stored inside of polyglot images. 
